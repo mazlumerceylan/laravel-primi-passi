@@ -7,5 +7,7 @@
 </head>
 <body>
     <h1>Hello, World!</h1>
+    <h1>Hello, {{ $name }}!</h1>
+    <p>Your email is {{ $email }}.</p>
 </body>
 </html>
