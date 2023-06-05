@@ -14,3 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'home');
+
+Route::get('/', function () {
+    $data = [
+        'name' => 'Giuseppe',
+        'email' => 'giuseppe@web.com',
+    ];
+    return view('home', $data);
+});
